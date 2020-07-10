@@ -1,20 +1,19 @@
-# snowflake
+# another snowflake
 Optimized 'snowflake' ID generator. Compatible time backtracking.
 
-## 优点
+## snowflake优点
 
 1. 不依赖中心服务器
 2. 随机性高
 
-## 缺点
+## snowflake缺点
 1. 受时间回拨影响较大
 2. 可支持的工作线程为1024个
 
-## 改进点
+## 本项目改进点
 
 1. 调整时间微妙至秒
 2. 调整实例ID至最后，在单实例上的服务上可以实现按照大小对比顺序
-
 
 ## 区间分配
 
