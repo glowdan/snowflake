@@ -12,7 +12,7 @@ Optimized 'snowflake' ID generator. Compatible time backtracking.
 
 ## 本项目改进点
 
-1. 调整时间微妙至秒
+1. 调整时间微秒至秒
 2. 调整实例ID至最后，在单实例上的服务上可以实现按照大小对比顺序
 
 ## 区间分配
